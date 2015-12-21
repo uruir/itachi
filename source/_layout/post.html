@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{config.title|escape}}</title>
+</head>
+<body>
+  <h1>{{post.title|escape}}</h1>
+  <p>创建于：{{post.date|escape}} | 修改于：{{post.updated|escape}} | 分类：{{post.categories|escape}} | 标签：{{post.tags|escape}}</p>
+  <hr>
+  <div class="post-content">{{post.content}}</div>
+</body>
+</html>

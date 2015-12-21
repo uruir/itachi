@@ -1,0 +1,46 @@
+/* 本博客使用淘宝的样式进行初始化 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font-size: 14px; }
+h1, h2, h3, h4, h5, h6 { margin-top: 0.25em; padding: 0; font-weight: bold; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+
+h1 { font-size: 2.25em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1em;}
+
+body { background: #f4f6f8; }
+
+.post-date {
+  background-color: #888;
+  color: #FFF;
+  font-weight: bold;
+  padding: 3px 12px;
+  margin: 3px 0;
+  display: inline-block;
+}
+.post-title {
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  margin-left: 6px;
+}
+.post-title:hover {
+  color: #F00;
+}
+.post-description {
+  margin-left: 6px;
+  color: #777;
+  font-size: 12px;
+}

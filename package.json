@@ -1,0 +1,37 @@
+{
+  "name": "itachi",
+  "version": "0.0.2",
+  "description": "tr's blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uruir/itachi.git"
+  },
+  "keywords": [
+    "blog",
+    "node"
+  ],
+  "author": "uRuier",
+  "license": "MIT",
+  "bin": {
+    "itachi": "./bin/itachi"
+  },
+  "bugs": {
+    "url": "https://github.com/uruir/itachi/issues"
+  },
+  "homepage": "https://github.com/uruir/itachi#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.13.3",
+    "fs-extra": "^0.26.3",
+    "markdown-it": "^5.0.2",
+    "moment": "^2.10.6",
+    "open": "0.0.5",
+    "rd": "0.0.2",
+    "serve-static": "^1.10.0",
+    "swig": "^1.4.2"
+  }
+}
